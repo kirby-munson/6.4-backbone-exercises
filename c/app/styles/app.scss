@@ -1,0 +1,49 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+$blue:#3aa8c1;
+$gray:#8c8c8c;
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+ color: $gray;
+ font-family: 'Roboto', sans-serif;
+}
+
+.app{
+  border: 3px solid $blue;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+button{
+  border-style: hidden;
+  background-color: $blue;
+  color: white;
+  margin-top: 20px;
+  height: 35px;
+  font-size: 16px;
+  width: 150px;
+  border-radius: 2px;
+  font-family: 'Roboto', sans-serif;
+}
+
+button:hover{
+  background-color: darken($blue, 20);
+}
