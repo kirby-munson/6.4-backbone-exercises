@@ -1,0 +1,151 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+div.header{
+  background-image: url('https://images.unsplash.com/photo-1436772414296-de1960161901?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a55804ddd210df662edd1a1e4675f6bf');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+
+.header h1 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 350px;
+  font-size: 100px;
+}
+
+$blue:#99d5cf;
+$gray:#8c8c8c;
+
+h1 {
+ color: $gray;
+ font-family: 'Roboto', sans-serif;
+}
+
+.app-form{
+  border: 3px solid $gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.app-list{
+  border: 3px solid $gray;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  height: 475px;
+  overflow: scroll;
+}
+
+button{
+  border-style: hidden;
+  background-color: $blue;
+  color: white;
+  margin-top: 20px;
+  height: 35px;
+  font-size: 16px;
+  width: 150px;
+  border-radius: 2px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.submit{
+  border-style: hidden;
+  background-color: $blue;
+  color: white;
+  margin-top: 20px;
+  height: 35px;
+  font-size: 16px;
+  width: 150px;
+  border-radius: 2px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.submit:hover{
+  background-color: darken($blue, 20);
+}
+
+button:hover{
+  background-color: darken($blue, 20);
+}
+
+.button-nav{
+  width: 24%;
+}
+
+dl.col-md-12 {
+  padding: 0;
+  margin-left: 25px;
+}
+
+.deleteButton{
+  width: 100px;
+  height: 30px;
+  margin-top: 0;
+  margin-left: 175px;
+  }
+
+#list-item{
+  line-height: 55px;
+  vertical-align: middle;
+  color: black;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#list-item:hover{
+  background-color: black;
+  color: white;
+  padding: 10px;
+
+}
+
+.app-list dd{
+    height: 60px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+p {
+  border: 3px solid $gray;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+}
+
+dd.footer{
+  display: inline-block;
+  color: black;
+  padding: 20px;
+}
+
+dl.footer.col-md-12{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
